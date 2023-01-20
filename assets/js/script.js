@@ -34,46 +34,55 @@ var myInterval;
 var arr = [
   {
     question: "Commonly used data types DO Not Include:",
-    choices: ["1.strings", "2.booleans", "3.alerts", "4.numbers"],
-    answer: "3.alerts",
+    choices: [
+      "Strings",
+      "Booleans",
+      "Alerts",
+      "Numbers"],
+    answer: "Alerts"
   },
   {
     question:
       "The condition in an if/else statement is enclosed with__________.",
     choices: [
-      "1.quotes",
-      "2.curly brackets",
-      "3.parenthesis",
-      "4.square brackets",
+      "Quotes",
+      "Curly brackets",
+      "Parenthesis",
+      "Square brackets"
     ],
-    answer: "3.parenthesis",
+    answer: "Parenthesis"
   },
   {
     question: "Arrays in javaScript can be used to store__________.",
     choices: [
-      "1.numbers and strings",
-      "2.other arrays",
-      "3.booleans",
-      "4.all of the above",
+      "Numbers and strings",
+      "Other arrays",
+      "Booleans",
+      "All of the above"
     ],
-    answer: "4.all of the above",
+    answer: "All of the above"
   },
   {
     question:
       "String values must be enclosed within__________when being assigned to variables.",
-    choices: ["1.commas", "2.curly brackets", "3.quotes", "4.parenthesis"],
-    answer: "3.quotes",
+    choices: [
+      "Commas",
+      "Curly brackets",
+      "Quotes",
+      "Parenthesis"
+    ],
+    answer: "Quotes"
   },
   {
     question:
       "A very usefull tool used during development and debugging for printind content to the debugger is:",
     choices: [
-      "1.JavaScript",
-      "2.terminal/bash",
-      "3.for loops",
-      "4.console.log",
+      "JavaScript",
+      "Terminal",
+      "For loops",
+      "Console.log"
     ],
-    answer: "4.console.log",
+    answer: "Console.log"
   },
 ];
 

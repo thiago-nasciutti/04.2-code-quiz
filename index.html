@@ -5,20 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <title>Code Quiz</title>
 </head>
 
 <body>
-
     <div id="container">
         <header>
-            <p id="countdown">Time: 0</p>
-            <button id="rankingBtn">High scores</button>
+            <h1>Code Quiz</h1>
+            <div id="time-scores">
+                <p id="countdown">TIME: 0</p>
+                <button id="rankingBtn">SCORE</button>
+            </div>
         </header>
         <div id="home">
-            <h2>Coding Quiz Challenge</h2>
-            <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect
+            <p id="home-p">Try to answer the following code-related questions within the time limit. Keep in mind that
+                incorrect
                 answers will penalize your score time by ten seconds!</p>
             <button id="startBtn">Start</button>
         </div>
@@ -40,15 +45,16 @@
         </div>
 
         <div id="scoreCard">
-            <h5 id="yourScore"></h5>
-            <h3>All done!</h3>
-            <p> Enter initial: </p>
-            <input id="name"></input>
-            <button id="saveBtn">Submit</button>
+            <h4 id="yourScore"></h4>
+            <h4> Enter initial: </h4>
+            <div id="sub">
+                <input id="name"></input>
+                <button id="saveBtn">Submit</button>
+            </div>
         </div>
 
         <div id="rankingCard">
-            <h3>High scores</h3>
+            <h1>High scores</h1>
             <ol id="orderedList"></ol>
             <button id="goBackBtn">Go back</button>
             <button id="clearScoresBtn">Clear high scores</button>
@@ -56,7 +62,7 @@
     </div>
 
 
-    <script src="./assets/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
