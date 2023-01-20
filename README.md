@@ -36,3 +36,6 @@ https://github.com/thiago-nasciutti/code-quiz
 
 ## Support
 nasciutti.thiago@gmail.com
+
+## Author
+Thiago Borges Nasciutti
